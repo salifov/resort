@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Hero from '../components/Hero';
 
-export default function Rooms() {
-    return (
-        <div>
-            Hello from rooms
-        </div>
-    );
-}
+const Rooms = () => {
+    return <Hero hero="roomsHero"></Hero>;
+};
+
+export default Rooms;
